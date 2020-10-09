@@ -63,6 +63,15 @@ a:visited {
   font-family: 'Major Mono Display', monospace;
 }
 
+h2 {
+  background-color: #DBD3D8;
+}
+
+#teamInfo {
+  min-height: 70%;
+  background-color: #DBD3D8;
+}
+
 @media (max-width: 1700px) {
   li {
     width: 100%;
