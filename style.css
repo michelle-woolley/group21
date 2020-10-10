@@ -58,18 +58,37 @@ a:visited {
   color: #EFF1F3;
 }
 
+#indexBody {
+  background-color: #DBD3D8;
+}
+
 #groupName {
   font-size: 120px;
   font-family: 'Major Mono Display', monospace;
 }
 
-h2 {
+.subHeadings {
+  margin: 50px 0px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Major Mono Display', monospace;
   background-color: #DBD3D8;
 }
 
-#teamInfo {
+.name-studentNum {
+  font-size: 20px;
+}
+
+#boxContainer {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0px 150px 50px 150px;
   min-height: 70%;
   background-color: #DBD3D8;
+}
+
+.boxItem {
+  flex-basis: 50%;
 }
 
 @media (max-width: 1700px) {
