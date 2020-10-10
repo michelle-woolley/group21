@@ -70,13 +70,19 @@ a:visited {
 .subHeadings {
   margin: 50px 0px;
   text-align: center;
-  font-size: 30px;
+  font-size: 35px;
   font-family: 'Major Mono Display', monospace;
   background-color: #DBD3D8;
 }
 
 .name-studentNum {
-  font-size: 20px;
+  font-size: 25px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.personalInfo {
+  font-size: 18px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 #boxContainer {
