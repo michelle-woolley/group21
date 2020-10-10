@@ -83,6 +83,13 @@ a:visited {
 }
 
 .studentNum {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.personalityHeading {
   padding-bottom: 10px;
   text-align: center;
   font-size: 25px;
