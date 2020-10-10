@@ -8,7 +8,7 @@ html, body {
 }
 
 nav {
-  display:flex;
+  display: flex;
   width: 100%;
   background-color: #DBD3D8;
 }
@@ -68,27 +68,49 @@ a:visited {
 }
 
 .subHeadings {
-  margin: 50px 0px;
+  margin: 80px 0px;
   text-align: center;
-  font-size: 30px;
+  font-size: 35px;
   font-family: 'Major Mono Display', monospace;
   background-color: #DBD3D8;
 }
 
-.name-studentNum {
-  font-size: 20px;
+.name {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.studentNum {
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.personalInfo {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 #boxContainer {
   display: flex;
-  flex-flow: row wrap;
-  margin: 0px 150px 50px 150px;
+  flex-flow: wrap;
+  margin: 0px 150px 100px 150px;
   min-height: 70%;
-  background-color: #DBD3D8;
 }
 
 .boxItem {
   flex-basis: 50%;
+}
+
+#colour1 {
+  background-color: #223843;
+  color: #EFF1F3;
 }
 
 @media (max-width: 1700px) {
