@@ -96,7 +96,7 @@ a:visited {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.personalInfo {
+.info {
   padding-right: 50px;
   padding-left: 50px;
   padding-bottom: 20px;
@@ -153,13 +153,14 @@ a:visited {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.profileLinks {
+.links {
+  display: inline-block;
   padding: 0px;
   font-size: 18px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.profileLinks:hover {
+.links:hover {
   color: #D77A61;
 }
 
@@ -179,17 +180,15 @@ a:visited {
   color: #D77A61;
 }
 
-.toolsContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .containerSubHeadings {
   padding-bottom: 20px;
   text-align: center;
   font-size: 30px;
   font-family: 'Major Mono Display', monospace;
+}
+
+#referencesDisplay {
+  padding: 50px 150px;
 }
 
 @media (max-width: 1700px) {
