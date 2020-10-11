@@ -58,8 +58,8 @@ a:visited {
   color: #EFF1F3;
 }
 
-#indexBody {
-  background-color: #DBD3D8;
+.bodyStyling {
+  background-color: #EFF1F3;
 }
 
 #groupName {
@@ -67,12 +67,12 @@ a:visited {
   font-family: 'Major Mono Display', monospace;
 }
 
-.subHeadings {
+#subHeading {
   margin: 80px 0px;
   text-align: center;
   font-size: 35px;
   font-family: 'Major Mono Display', monospace;
-  background-color: #DBD3D8;
+  background-color: #EFF1F3;
 }
 
 .name {
@@ -115,9 +115,26 @@ a:visited {
   flex-basis: 50%;
 }
 
+.subPageHeaders {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30%;
+  font-size: 100px;
+  font-family: 'Major Mono Display', monospace;
+}
+
 #colour1 {
   background-color: #223843;
   color: #EFF1F3;
+}
+
+#colour2 {
+  background-color: #D8B4A0;
+}
+
+#colour3 {
+  background-color: #D77A61;
 }
 
 @media (max-width: 1700px) {
