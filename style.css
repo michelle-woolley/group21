@@ -247,6 +247,15 @@ a:visited {
   font-size: 18px;
 }
 
+#listPadding {
+  padding-left: 5%;
+}
+
+#elementStyling {
+  display: list-item;
+  list-style-type: circle;
+}
+
 #referencesDisplay {
   margin: 3% 15%;
 }
