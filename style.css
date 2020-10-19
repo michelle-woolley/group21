@@ -137,6 +137,10 @@ a:visited {
   background-color: #D77A61;
 }
 
+#idealJobsBox {
+  margin: 3% 15%;
+}
+
 .toolsSubHeadings {
   padding-top: 50px;
   padding-left: 50px;
