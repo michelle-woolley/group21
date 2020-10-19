@@ -82,6 +82,10 @@ a:visited {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+#namePadding {
+  padding-bottom: 40px;
+}
+
 .studentNum {
   padding-bottom: 20px;
   text-align: center;
@@ -97,22 +101,47 @@ a:visited {
 }
 
 .info {
-  padding-right: 50px;
-  padding-left: 50px;
   padding-bottom: 20px;
   font-size: 18px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+#toolsDiv {
+  margin: 3% 15%;
+}
+
 .boxContainer {
   display: flex;
   flex-flow: wrap;
-  margin: 0px 150px 50px 150px;
+  margin: 3% 15%;
+  min-height: 70%;
+}
+
+.toolsBoxContainer {
+  display: flex;
+  flex-flow: wrap;
   min-height: 70%;
 }
 
 .boxItem {
   flex-basis: 50%;
+}
+
+#toolsDescription {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#toolsMargin {
+    margin-top: 20px;
+}
+
+.indexBoxInfo {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .subPageHeaders {
@@ -142,9 +171,7 @@ a:visited {
 }
 
 .toolsSubHeadings {
-  padding-top: 50px;
-  padding-left: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   text-align: center;
   font-size: 30px;
   font-family: 'Major Mono Display', monospace;
@@ -152,7 +179,6 @@ a:visited {
 
 .websiteHeadings {
   padding-bottom: 5px;
-  padding-left: 50px;
   font-size: 20px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
@@ -191,6 +217,10 @@ a:visited {
   font-family: 'Major Mono Display', monospace;
 }
 
+.subContainer {
+  padding-top: 20px;
+}
+
 .techNameSubHeadings {
   padding-bottom: 15px;
   text-align: center;
@@ -200,7 +230,7 @@ a:visited {
 
 .techContainer {
   display: block;
-  padding: 3% 15%;
+  margin: 3% 15%;
 }
 
 .techReport {
@@ -214,7 +244,7 @@ a:visited {
 }
 
 #referencesDisplay {
-  padding: 50px 150px;
+  margin: 3% 15%;
 }
 
 @media (max-width: 1700px) {
