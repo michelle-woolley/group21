@@ -247,6 +247,10 @@ a:visited {
   font-size: 18px;
 }
 
+#interviewLink {
+  text-align: center;
+}
+
 .figureStyling {
   text-align: center;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
